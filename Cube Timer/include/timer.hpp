@@ -2,7 +2,7 @@
 
 #include <Arduino.h>
 
-float timer (){
+float solveTime (){
     float startSolve = millis();
     float endSolve;
     float solve = endSolve - startSolve;

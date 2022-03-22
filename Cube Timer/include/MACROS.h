@@ -8,3 +8,10 @@
 #define LED_GO         8   // Indicates the user that the time will start right after they take their hands out of sight.
 
 #define LCD                // LCD Screen feature, coming soon...
+
+void setupPins(){
+    pinMode(LEFT_SENSOR, INPUT);
+    pinMode(RIGHT_SENSOR, INPUT);
+    pinMode(LED_READY, OUTPUT);
+    pinMode(LED_GO, OUTPUT);
+};
